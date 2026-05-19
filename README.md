@@ -15,6 +15,14 @@ This homework demonstrates:
 - creating a Docker image for the application;
 - running the application inside a Docker container in interactive mode.
 
+Commands:
+poetry install --no-root
+poetry run python bot.py
+docker build -t personal-assistant .
+docker run -it personal-assistant
+docker run -it personal-assistant /bin/bash
+python bot.py
+
 ## Technologies Used
 
 - Python 3.13
